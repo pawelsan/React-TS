@@ -15,6 +15,7 @@ const Contacts: React.FC<Props> = (props) => {
                     <p>{contact.telNumber}</p>
                     <p>{contact.emailAdress}</p>
                     <p>{contact.adress}</p>
+                    <p>{contact.tags.join(', ')}</p>
                 </li>)}
         </ul>
     )
